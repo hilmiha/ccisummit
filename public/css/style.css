@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.form-control:focus {
+    z-index: 1;
+    position: relative;
+}
+
+.btn:focus{
+    z-index: 1;
+    position: relative;
+}
+
+.bg-summit{
+    background-color: #055E9E;
+}
+
+.bg-foter-tiket{
+    background-color: #0F74BC;
+}
+
+.logo-header{
+    height: 40px;
+    width: auto;
+}
+
+.part-summit{
+    padding-top: 80px;
+}
+
+.logo-beranda{
+    height: auto;
+    width: 20%;
+}
+
+.beranda-decor-0{
+    position: relative; 
+    bottom: 2rem;
+    width: 100%;
+}
+
+.ppl-profile-img{
+    max-width: 50%;
+    height: auto;
+}
+
+.logo-footer{
+    height: 30px;
+    width: auto;
+}
+
+.tx-summit{
+    color: #055E9E;
+}
+
+.tx-ccigrren{
+    color: #63BA46;
+}
+
+.tx-cciblue{
+    color: #0F74BC;
+}
+
+.subtx-summit{
+    color: #B5B5B5;
+}
+
+.bg-menu-chg div{
+    height: 100%;
+}
+
+.horizontal-group > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-group > .row > .horizontal-item {
+    display: inline-block;
+    white-space: normal;
+
+}
+
+.bg-wrapper{
+    position: relative;
+}
+
+.bg-img{
+    position: absolute; 
+    z-index: -100;
+}
+
+.bg-event-page{
+    min-height: 547px;
+    background-image: url('../image/techweek/bg_evnt_techweek.png'); 
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.img-event-page{
+    display: none;
+}
+
+.devider{
+    border-top: 5px solid #bbb; 
+    border-radius: 5px;
+}
+
+
+/* large breakpoint */
+@media (max-width: 991px)
+{
+    .bg-event-page{
+        background-image: none; 
+        background-size: cover;
+        background-position: center bottom;
+    }
+
+    .img-event-page{
+        display: block;
+    }
+}
+
+/* medium breakpoint */
+@media (max-width: 767px)
+{
+    .bg-menu-chg {
+        background-color: #f8f9fa !important;
+    }
+
+    .bg-menu-chg div{
+        height: auto;
+    }
+
+    #menu .menu-list:hover{
+        background-color: #e9ecef !important;
+    }
+
+    .logo-beranda{
+        height: auto;
+        width: 40%;
+    }
+}
+
+/* when size small */
+@media (max-width: 575px)
+{
+    .beranda-decor-0{
+        position: relative; 
+        bottom: 5%;
+    }
+}
