@@ -49,8 +49,9 @@ Route::get('/event/techweek2022', function(){
 Route::get('/pesan/techweek2022', function(){
     return view('pesan_tiket.index', [
         'title' => 'Form Peserta | CCI Summit 2022',
+        'onstep' => 'pesan'
     ]);
 });
 
-Route::get('/bayar', [BayarTiketController::class, 'index']);
+Route::get('/bayar/techweek2022', [BayarTiketController::class, 'index']);
 

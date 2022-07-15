@@ -1,25 +1,3 @@
-<div class="row p-3 p-sm-0 mb-0 mb-sm-4">
-    <a href="/event/techweek2022" class="text-decoration-none mt-5 mb-5"><h6><i class="bi bi-arrow-left"></i> Kembali</h6></a>
-</div>
-
-{{-- Info Event --}}
-<div class="row p-3 p-sm-0 mb-0 mb-sm-4">
-    <div class="col-12 d-flex flex-row justify-content-between justify-content-sm-start">
-        <div class="me-0 me-sm-5">
-            <h6 class="tx-summit mb-2"><b>Form Peserta</b></h6>
-            <hr class="devider" style="border-color: #055E9E;">
-        </div>
-        <div class="me-0 me-sm-5">
-            <h6 class="subtx-summit mb-2"><b>Pembayaran</b></h6>
-            <hr class="devider">
-        </div>
-        <div class="me-0 me-sm-5">
-            <h6 class="subtx-summit mb-2"><b>Selesai</b></h6>
-            <hr class="devider">
-        </div>
-    </div>
-</div>
-
 {{-- Form Pesanan --}}
 <div class="row justify-content-between p-3 p-sm-0 ">
     <div class="col-12 col-md-4">
@@ -110,7 +88,7 @@
                         </div>
                         <div class="mb-4 text-center text-lg-start">
                             {{-- <button type="submit" class="btn btn-primary w-100"><b>Pesan Tiket</b></button> --}}
-                            <a href="/bayar" class="btn btn-primary w-100"><b>Pesan Tiket</b></a>
+                            <a href="/bayar/techweek2022" class="btn btn-primary w-100"><b>Pesan Tiket</b></a>
                         </div>
                     </div>
                 </div>

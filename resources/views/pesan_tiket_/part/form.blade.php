@@ -10,8 +10,8 @@
             <hr class="devider" style="border-color: #055E9E;">
         </div>
         <div class="me-0 me-sm-5">
-            <h6 class="tx-summit mb-2"><b>Pembayaran</b></h6>
-            <hr class="devider" style="border-color: #055E9E;">
+            <h6 class="subtx-summit mb-2"><b>Pembayaran</b></h6>
+            <hr class="devider">
         </div>
         <div class="me-0 me-sm-5">
             <h6 class="subtx-summit mb-2"><b>Selesai</b></h6>
@@ -39,49 +39,30 @@
     </div>
 
     <div class="col-12 col-md-7">
-        <div class="row justify-content-between">
-            <div class="col-12 col-lg-5 pt-5 pt-sm-0">
-                <div class="row">
-                    <div class="mb-4">
-                        <label for="nama" class="form-label tx-summit"><b>Nama Lengkap</b></label>
-                        <p>HILMI HIDAYAT ARFISKO</p>
-                    </div>
-                    <div class="mb-4">
-                        <label for="nim" class="form-label tx-summit"><b>No Induk Mahasiswa (NIM)</b></label>
-                        <p>1301170142</p>
-                    </div>
-                    <div class="mb-4">
-                        <label for="nohp" class="form-label tx-summit"><b>No Hp</b></label>
-                        <p>081349471340</p>
-                    </div>
-                    <div class="mb-4">
-                        <label for="email" class="form-label tx-summit"><b>Alamat Email</b></label>
-                        <p>hilmihidayatar@gmail.com</p>
+        <form action="">
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5 pt-5 pt-sm-0">
+                    <div class="row">
+                        <div class="mb-4">
+                            <label for="nama" class="form-label tx-summit"><b>Nama Lengkap</b></label>
+                            <input type="text" class="form-control" id="nama" name="nama" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="nim" class="form-label tx-summit"><b>No Induk Mahasiswa (NIM)</b></label>
+                            <input type="text" class="form-control" id="nim" name="nim" pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="nohp" class="form-label tx-summit"><b>No Hp</b></label>
+                            <input type="tel" class="form-control" id="nohp" name="nohp" pattern="^(\+62|62|0)8[1-9][0-9]{6,9}$" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label tx-summit"><b>Alamat Email</b></label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <hr class="d-lg-none mb-4">
-
-            <div class="col-12 col-lg-6 d-flex flex-column justify-content-start">
-                <div class="row mb-3">
-                    <div class="col-6">
-                        <label class="form-label tx-summit"><b>ID Pesanan</b></label>
-                    </div>
-                    <div class="col-6 pe-0 text-end">
-                        <span>TIX140722TW</span>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-6">
-                        <label class="form-label tx-summit"><b>Sisa Waktu Pembayaran</b></label>
-                    </div>
-                    <div class="col-6 pe-0 text-end">
-                        <span>10 Menit 58 Detik</span>
-                    </div>
-                    <p class="subtx-summit">Lakukan pembayaran sebelum 14/07/2022 23:09  WIB</p>
-                </div>
-                <div>
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-between">
                     <label class="form-label tx-summit"><b>Detai Pesanan</b></label>
                     <div class="mt-2 mb-5 rounded-2">
                         
@@ -111,25 +92,30 @@
                         
                     </div>
                     <div>
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="input_true" required>
+                                <label class="form-check-label" for="input_true">
+                                    Data peserta yang saya isikan sudah benar.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="term" required>
+                                <label class="form-check-label" for="term">
+                                    Dengan mencentang ini, kamu menyetujui <a href="#" class="text-decoration-none"> Syarat & Ketentuan</a> kami.
+                                </label>
+                            </div>
+                        </div>
                         <div class="mb-4 text-center text-lg-start">
                             {{-- <button type="submit" class="btn btn-primary w-100"><b>Pesan Tiket</b></button> --}}
-                            {{-- <a href="/bayar" class="btn btn-primary w-100"><b>Bayar Tiket</b></a> --}}
-                            <button id="pay-button" class="btn btn-primary w-100">Bayar Sekarang!</button>
-
-                            <script type="text/javascript">
-                                // For example trigger on button clicked, or any time you need
-                                var payButton = document.getElementById('pay-button');
-                                payButton.addEventListener('click', function () {
-                                    // Trigger snap popup. @TODO: Replace TRANSACTION_TOKEN_HERE with your transaction token
-                                    window.snap.pay('{{ $snap_token }}');
-                                    // customer will be redirected after completing payment pop-up
-                                });
-                            </script>
+                            <a href="/bayar/techweek2022" class="btn btn-primary w-100"><b>Pesan Tiket</b></a>
                         </div>
                     </div>
                 </div>
-                
             </div>
-        </div>
+        </form>
     </div>
+    
 </div>

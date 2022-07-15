@@ -6,7 +6,7 @@
                 <button type="button" class="btn btn-outline-primary d-md-none" data-bs-toggle="collapse" data-bs-target="#menu"><i class="bi bi-three-dots"></i></button>
             </div>
             <div class="d-md-block collapse bg-menu-chg mt-4 mt-md-0 px-2 pt-2 pt-md-0 rounded-top" id="menu">
-                <div class="d-flex flex-column flex-md-row justify-content-start align-items-md-center text-center {{ (Request::is('beranda') or Request::is('event/*') or Request::is('pesan/*')) ? 'd-none' : '' }}">
+                <div class="d-flex flex-column flex-md-row justify-content-start align-items-md-center text-center {{ (Request::is('beranda') or Request::is('event/*') or Request::is('pesan/*') or Request::is('bayar/*'))  ? 'd-none' : '' }}">
                     <a href="/beranda" class="text-decoration-none ms-md-5"><div class="menu-list p-3 p-md-0"><b>Beranda</b></div></a>
                     <a href="#" class="text-decoration-none ms-md-5"><div class="menu-list p-3 p-md-0"><b>Hubungi Kami</b></div></a>
                     <a href="#" class="text-decoration-none ms-md-5"><div class="menu-list p-3 p-md-0"><b>FAQ</b></div></a>

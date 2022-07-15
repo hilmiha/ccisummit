@@ -6,11 +6,9 @@
             @include('layout.header')
         </div>
     </div>
-
-    
     
     <div class="container part-summit" style="min-height: 100vh;">
-        @include('bayar_tiket.part.form')
+        @include('pesan_tiket.part.form')
     </div>
 
 
