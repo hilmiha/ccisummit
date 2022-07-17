@@ -49,8 +49,11 @@ class BayarTiketController extends Controller
         
         $snapToken = \Midtrans\Snap::getSnapToken($params);
 
+        //simpan snaptoken untuk memunculkan kembali nantinya 
+        // $snapToken = '9c493c32-c90a-42a0-b6e2-336c51efc75d'; 
+
         return view('pesan_tiket.index', [
-            'title' => 'Form Peserta | CCI Summit 2022',
+            'title' => 'Pembayaran Transaksi '.$id_pesanan.' | CCI Summit 2022',
             'onstep' => 'pembayaran_waiting',
             'snap_token' => $snapToken
         ]);

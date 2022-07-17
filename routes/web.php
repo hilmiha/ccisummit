@@ -55,3 +55,20 @@ Route::get('/pesan/techweek2022', function(){
 
 Route::get('/bayar/techweek2022', [BayarTiketController::class, 'index']);
 
+Route::get('/tiketsaya', function(){
+    return view('tiket_saya.index', [
+        'title' => 'Tiket Saya | CCI Summit 2022',
+    ]);
+});
+
+Route::get('/transaksisaya', function(){
+    return view('transaksi_saya.index', [
+        'title' => 'Transaksi Saya | CCI Summit 2022',
+    ]);
+});
+
+Route::get('/ecert', function(){
+    return view('ecert_saya.index', [
+        'title' => 'Sertifikat Saya | CCI Summit 2022',
+    ]);
+});

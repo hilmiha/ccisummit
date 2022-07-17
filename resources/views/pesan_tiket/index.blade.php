@@ -9,9 +9,13 @@
 
     
     <div class="container part-summit" style="min-height: 100vh;">
-        <div class="row p-3 p-sm-0 mb-0 mb-sm-4">
-            <a href="/event/techweek2022" class="text-decoration-none mt-5 mb-5"><h6><i class="bi bi-arrow-left"></i> Kembali</h6></a>
+        <div class="row mt-5 mb-5">
+            <div class="d-flex">
+                <a href="/event/techweek2022" class="text-decoration-none"><i class="bi bi-arrow-left"></i> Kembali</a>
+            </div>
         </div>
+        
+
         
         @include('pesan_tiket.part.onstep')
 

@@ -1,6 +1,12 @@
 <div class="d-flex flex-column justify-content-between bg-event-page rounded-4 p-3 p-lg-4 p-xl-5">
-    <a href="/beranda" class="text-decoration-none mb-5"><h6><i class="bi bi-arrow-left"></i> Kembali</h6></a>
+    <div class="row">
+        <div class="d-flex">
+            <a href="/beranda" class="text-decoration-none"><i class="bi bi-arrow-left"></i> Kembali</a>
+        </div>
+    </div>
+
     <img src="{{ asset('image/techweek/summit_event_techweek_sm.png') }}" class="img-fluid mb-4 img-event-page" alt="">
+
     <div class="row justify-content-between align-items-end mt-4">
         <div class="col-12 col-md-5">
             <div class="mb-5">
@@ -24,7 +30,5 @@
             </div>
             <a href="/pesan/techweek2022" class="btn btn-primary w-100"><b>Pesan Tiket</b></a>
         </div>
-        
-        
     </div>
 </div>
