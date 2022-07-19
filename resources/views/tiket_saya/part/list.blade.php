@@ -8,27 +8,21 @@
             <div class="col-12 px-4 p-0">
                 <div class="row mb-3">
                     <div class="col-12 col-md-6 mt-3 mt-md-0">
-                        <div class="row">
-                            <div class="col-4">
-                                <span><b>Id Tiket</b></span> 
+                        <div class="d-flex flex-column flex-md-row">
+                            <div>
+                                <h4 class="bi bi-ticket-perforated mb-3 mb-md-0"></h4>
                             </div>
-                            <div class="col-8">
-                                <span>: TIX09281TW</span>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-4">
-                                <span><b>Status</b></span>
-                            </div>
-                            <div class="col-8">
-                                <span>: <b class="text-success text-opacity-75">Aktif</b></span>
+                            <div class="ms-0 ms-md-3 w-100">
+                                <span>ID Tiket. TIX09281TW</span><br>
+                                <p class="mt-2 mb-0 "><b>HILMI HIDAYAT ARFISKO</b></p>
+                                <span class="text-success text-opacity-75"><b>Aktif</b></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mt-3 mt-md-0">
                         <div id="TIX09281TW" class="d-flex justify-content-sm-start justify-content-md-end"></div>
                         <script>
-                            new QRCode(document.getElementById("TIX09281TW"), {text: "http://jindo.dev.naver.com/collie",width: 60, height: 60});
+                            new QRCode(document.getElementById("TIX09281TW"), {text: "http://jindo.dev.naver.com/collie",width: 80, height: 80});
                         </script>
                     </div>
                 </div>
@@ -67,8 +61,6 @@
                 </div>
             </div>
         </div>
-
-
     </div>
 </div>
 
@@ -82,27 +74,21 @@
             <div class="col-12 px-4 p-0">
                 <div class="row mb-3">
                     <div class="col-12 col-md-6 mt-3 mt-md-0">
-                        <div class="row">
-                            <div class="col-4">
-                                <span><b>Id Tiket</b></span> 
+                        <div class="d-flex flex-column flex-md-row">
+                            <div>
+                                <h4 class="bi bi-ticket-perforated mb-3 mb-md-0"></h4>
                             </div>
-                            <div class="col-8">
-                                <span>: TIX09019UD</span>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-4">
-                                <span><b>Status</b></span>
-                            </div>
-                            <div class="col-8">
-                                <span>: Telah Digunakan</span>
+                            <div class="ms-0 ms-md-3 w-100">
+                                <span>ID Tiket. TIX09281TW</span><br>
+                                <p class="mt-2 mb-0 "><b>HILMI HIDAYAT ARFISKO</b></p>
+                                <span class="text-secondary text-opacity-75"><b>Sudah Digunakan</b></span>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mt-3 mt-md-0">
                         <div id="TIX09019UD" class="d-flex justify-content-sm-start justify-content-md-end"></div>
                         <script>
-                            new QRCode(document.getElementById("TIX09019UD"), {text: "http://jindo.dev.naver.com/collie",width: 60, height: 60});
+                            new QRCode(document.getElementById("TIX09019UD"), {text: "http://jindo.dev.naver.com/collie",width: 80, height: 80});
                         </script>
                     </div>
                 </div>

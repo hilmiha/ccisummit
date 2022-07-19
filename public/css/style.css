@@ -108,6 +108,15 @@ html, body {
     border-radius: 5px;
 }
 
+.blog-link{
+    color: black;
+    text-decoration: none;
+}
+
+.blog-link:hover {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+}
 
 /* large breakpoint */
 @media (max-width: 991px)
@@ -121,11 +130,7 @@ html, body {
     .img-event-page{
         display: block;
     }
-}
 
-/* medium breakpoint */
-@media (max-width: 767px)
-{
     .bg-menu-chg {
         background-color: #f8f9fa !important;
     }
@@ -137,7 +142,11 @@ html, body {
     #menu .menu-list:hover{
         background-color: #e9ecef !important;
     }
+}
 
+/* medium breakpoint */
+@media (max-width: 767px)
+{
     .logo-beranda{
         height: auto;
         width: 40%;

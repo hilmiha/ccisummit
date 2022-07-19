@@ -4,25 +4,34 @@
             <div class="col-12 px-4 p-0">
                 <div class="row mb-3">
                     <div class="col-12">
-                        <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <span>Id Pembayaran. 120192861</span><br>
-                                <span class="subtx-summit">16/07/2022 07:32WIB</span>
+                        <div class="d-flex flex-column flex-sm-row">
+                            <div class="d-flex align-items-center">
+                                <h4 class="bi bi-hourglass-split mb-3 mb-sm-0"></h4>
                             </div>
-                            <div class="col-12 col-sm-6 text-sm-end">
-                                <span><b class="text-dark text-opacity-75">Menunggu Pembayaran</b></span>
+                            <div class="ms-2 w-100">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 ps-0 ps-sm-3">
+                                        <span>ID Pembayaran. 120192861</span><br>
+                                        <span class="subtx-summit">16/07/2022 07:32WIB</span>
+                                    </div>
+                                    <div class="col-12 col-sm-6 text-sm-end ps-0 ps-sm-3">
+                                        <span><b class="text-dark text-opacity-75">Menunggu Pembayaran</b></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        
+                        
 
                         <hr>
                         <div class="row mb-3">
-                            <div class="col-7">
+                            <div class="col-12 col-sm-7">
                                 <span><i>Tiket - Tech Week 2022 </i></span>
                             </div>
                             <div class="col">
                                 <span>x 1</span>
                             </div>
-                            <div class="col-3 text-end">
+                            <div class="col-6 col-sm-3 text-end">
                                 <span>Rp25.000</span>
                             </div>
                         </div>
@@ -48,7 +57,7 @@
                         </button>
                     </h2>
                     <div id="flush-collapse120192861" class="accordion-collapse collapse" aria-labelledby="accordHeading_120192861" data-bs-parent="#accord_120192861">
-                        <div class="accordion-body border border-1">
+                        <div class="accordion-body">
                             <p class="form-label"><b>Peserta</b></p>
                             <div class="ms-4 mb-3">
                                 <div class="row">
@@ -88,25 +97,32 @@
             <div class="col-12 px-4 p-0">
                 <div class="row mb-3">
                     <div class="col-12">
-                        <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <span>Id Pembayaran. 120192342</span><br>
-                                <span class="subtx-summit">16/07/2022 07:32WIB</span>
+                        <div class="d-flex flex-column flex-sm-row">
+                            <div class="d-flex align-items-center">
+                                <h4 class="bi bi-check-circle text-success mb-3 mb-sm-0"></h4>
                             </div>
-                            <div class="col-12 col-sm-6 text-sm-end">
-                                <span><b class="text-success text-opacity-75">Selesai</b></span>
+                            <div class="ms-2 w-100">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 ps-0 ps-sm-3">
+                                        <span>Id Pembayaran. 120192342</span><br>
+                                        <span class="subtx-summit">16/07/2022 07:32WIB</span>
+                                    </div>
+                                    <div class="col-12 col-sm-6 text-sm-end ps-0 ps-sm-3">
+                                        <span><b class="text-success text-opacity-75">Selesai</b></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <hr>
                         <div class="row mb-3">
-                            <div class="col-7">
+                            <div class="col-12 col-sm-7">
                                 <span><i>Tiket - Tech Week 2022 </i></span>
                             </div>
                             <div class="col">
                                 <span>x 1</span>
                             </div>
-                            <div class="col-3 text-end">
+                            <div class="col-6 col-sm-3 text-end">
                                 <span>Rp25.000</span>
                             </div>
                         </div>
@@ -132,7 +148,7 @@
                         </button>
                     </h2>
                     <div id="flush-collapse120192342" class="accordion-collapse collapse" aria-labelledby="accordHeading_120192342" data-bs-parent="#accord_120192342">
-                        <div class="accordion-body border border-1">
+                        <div class="accordion-body">
                             <p class="form-label"><b>Peserta</b></p>
                             <div class="ms-4 mb-3">
                                 <div class="row">
@@ -171,25 +187,32 @@
             <div class="col-12 px-4 p-0">
                 <div class="row mb-3">
                     <div class="col-12">
-                        <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <span>Id Pembayaran. 432592342</span><br>
-                                <span class="subtx-summit">16/07/2022 07:32WIB</span>
+                        <div class="d-flex flex-column flex-sm-row">
+                            <div class="d-flex align-items-center">
+                                <h4 class="bi bi-check-circle text-success mb-3 mb-sm-0"></h4>
                             </div>
-                            <div class="col-12 col-sm-6 text-sm-end">
-                                <span><b class="text-success text-opacity-75">Selesai</b></span>
+                            <div class="ms-2 w-100">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 ps-0 ps-sm-3">
+                                        <span>Id Pembayaran. 432592342</span><br>
+                                        <span class="subtx-summit">16/07/2022 07:32WIB</span>
+                                    </div>
+                                    <div class="col-12 col-sm-6 text-sm-end ps-0 ps-sm-3">
+                                        <span><b class="text-success text-opacity-75">Selesai</b></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <hr>
                         <div class="row mb-3">
-                            <div class="col-7">
+                            <div class="col-12 col-sm-7">
                                 <span><i>Tiket - Tech Week 2022 </i></span>
                             </div>
                             <div class="col">
                                 <span>x 1</span>
                             </div>
-                            <div class="col-3 text-end">
+                            <div class="col-6 col-sm-3 text-end">
                                 <span>Rp25.000</span>
                             </div>
                         </div>
@@ -215,7 +238,7 @@
                         </button>
                     </h2>
                     <div id="flush-collapse432592342" class="accordion-collapse collapse" aria-labelledby="accordHeading_432592342" data-bs-parent="#accord_432592342">
-                        <div class="accordion-body border border-1">
+                        <div class="accordion-body">
                             <p class="form-label"><b>Peserta</b></p>
                             <div class="ms-4 mb-3">
                                 <div class="row">

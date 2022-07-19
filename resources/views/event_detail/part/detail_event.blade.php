@@ -1,4 +1,4 @@
-<div class="row justify-content-start align-items-center p-3 p-sm-0 mt-5">
+<div class="row justify-content-start align-items-center p-3 p-sm-0">
     <h2 class="tx-summit mb-4"><b>Speaker</b></h2>
     <div class="row justify-content-between">
         <div class="col-12 col-md-5 d-flex flex-column flex-sm-row justify-content-start align-items-center mb-5 mb-md-0">
@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <div class="mb-5">
+        <div class="mb-5 mb-lg-0">
             <p class="subtx-summit"><b>Yang Perlu Kamu Siapkan</b></p>
             <div class="row">
                 <div class="col-12 col-sm-6">
@@ -56,6 +56,8 @@
                         <img src="{{ asset('image/web-asset/icon_laptop.png') }}" class=""alt="">
                         <span class="ms-4">Laptop</span>
                     </div>
+                </div>
+                <div class="col-12 col-sm-6">
                     <div class="d-flex justify-content-start align-items-center mb-4">
                         <img src="{{ asset('image/web-asset/icon_ticket.png') }}" class=""alt="">
                         <span class="ms-4">Barcode tiket acara</span>

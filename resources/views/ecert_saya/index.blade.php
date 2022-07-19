@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    {{-- Tiket Saya List --}}
+    {{-- Ecert Saya List --}}
     <div class="container part-summit" style="min-height: 100vh;">
 
         <div class="row justify-content-center">

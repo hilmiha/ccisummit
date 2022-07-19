@@ -72,3 +72,22 @@ Route::get('/ecert', function(){
         'title' => 'Sertifikat Saya | CCI Summit 2022',
     ]);
 });
+
+Route::get('/blog', function(){
+    return view('blog_pengumuman.index', [
+        'title' => 'Blog & Pengumuman | CCI Summit 2022',
+    ]);
+});
+
+Route::get('/akunsaya', function(){
+    return view('akun_saya.index', [
+        'title' => 'Blog & Pengumuman | CCI Summit 2022',
+    ]);
+});
+
+Route::get('/blog/at-vero-eos', function(){
+    $judul = "At vero eos accusamu iusto odio dignissimos ducimus blanditiis praesentium voluptatum";
+    return view('blog_post.index', [
+        'title' => $judul.' | CCI Summit 2022',
+    ]);
+});
