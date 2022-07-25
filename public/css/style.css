@@ -94,9 +94,8 @@ html, body {
 
 .bg-event-page{
     min-height: 547px;
-    background-image: url('../image/techweek/bg_evnt_techweek.png'); 
     background-size: cover;
-    background-position: center bottom;
+    background-position: center bottom; 
 }
 
 .img-event-page{
@@ -122,11 +121,11 @@ html, body {
 @media (max-width: 991px)
 {
     .bg-event-page{
-        background-image: none; 
+        background-image: none !important; 
         background-size: cover;
         background-position: center bottom;
     }
-
+ 
     .img-event-page{
         display: block;
     }
@@ -137,6 +136,10 @@ html, body {
 
     .bg-menu-chg div{
         height: auto;
+    }
+
+    #menu .menu-list{
+        width: 100%;
     }
 
     #menu .menu-list:hover{

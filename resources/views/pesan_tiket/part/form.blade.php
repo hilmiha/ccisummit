@@ -5,13 +5,13 @@
             <img src="{{ asset('image/techweek/summit_event_techweek_sm.png') }}" class="img-fluid" alt="">
         </div>
         <div class="mb-4">
-            <h4 class="tx-cciblue"><b>Tech Week<span class="text-primary"> 2022</span></b></h4>
-            <span class="subtx-summit">By Central Computer Improvement (CCI), Web Development Division</span>
+            <h4 class="tx-cciblue"><b>{{ $event->nama_event }}<span class="text-primary"> 2022</span></b></h4>
+            <span class="subtx-summit">By {{ $event->penyelenggara }}</span>
         </div>
         <div> 
-            <p class="mb-5">Workshop membuat web site dengan HTML, CSS, Java Script dan Framework React JS</p>
-            <span class="mt-5"><b>Februari 19</b></span>
-            <p>Ruang P401, Gedung Deli,  Fakultas Teknik Elektro, Telkom University</p>
+            <p class="mb-5">{{ $event->deskripsi_singkat }}</p>
+            <span class="mt-5"><b>{{ date('F d', strtotime($event->tanggal)) }}</b></span>
+            <p>{{ $event->lokasi }}</p>
            
         </div>
     </div>

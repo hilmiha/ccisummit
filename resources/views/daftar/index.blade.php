@@ -15,18 +15,31 @@
                 <span>Mulaikan langkah pertama mu dalam event CCI Summit 2022 </span>
             </div>
             <div class="col-lg-8 mt-4 mt-sm-5  mb-4 order-lg-1">
-                <form action="">
+                <form action="/daftar" method="post">
+                    @csrf
                     <div class="row">
                         <div class="col-lg-3 me-lg-3" style="min-width: 300px;">
                             <div class="mb-4">
                                 <label for="nama" class="form-label tx-summit"><b>Nama Lengkap</b></label>
-                                <input type="text" class="form-control" id="nama" name="nama" required>
+                                <input type="text" class="form-control @error('nama') is-invalid @enderror" id="nama" name="nama" required value="{{ old('nama') }}">
+                                @error('nama')
+                                    <div class="invalid-feedback text-start mb-3">
+                                        {{ $message }}
+                                    </div>  
+                                @enderror
                             </div>
+                            
+                            
                         </div>
                         <div class="col-lg-3 me-lg-3" style="min-width: 300px;">
                             <div class="mb-4">
                                 <label for="nim" class="form-label tx-summit"><b>No Induk Mahasiswa (NIK)</b></label>
-                                <input type="text" class="form-control" id="nim" name="nim" pattern="[0-9]{10}" required>
+                                <input type="text" class="form-control @error('nim') is-invalid @enderror" id="nim" name="nim" pattern="[0-9]{10}" required value="{{ old('nim') }}">
+                                @error('nim')
+                                    <div class="invalid-feedback text-start mb-3">
+                                        {{ $message }}
+                                    </div>  
+                                @enderror
                             </div>
                         </div>
                     </div>
@@ -34,13 +47,23 @@
                         <div class="col-lg-3 me-lg-3" style="min-width: 300px;">
                             <div class="mb-4">
                                 <label for="nohp" class="form-label tx-summit"><b>No Hp</b></label>
-                                <input type="tel" class="form-control" id="nohp" name="nohp" pattern="^(\+62|62|0)8[1-9][0-9]{6,9}$" required>
+                                <input type="tel" class="form-control @error('nohp') is-invalid @enderror" id="nohp" name="nohp" pattern="^(\+62|62|0)8[1-9][0-9]{6,9}$" required value="{{ old('nohp') }}">
+                                @error('nohp')
+                                    <div class="invalid-feedback text-start mb-3">
+                                        {{ $message }}
+                                    </div>  
+                                @enderror
                             </div>
                         </div>
                         <div class="col-lg-3 me-lg-3" style="min-width: 300px;">
                             <div class="mb-4">
                                 <label for="email" class="form-label tx-summit"><b>Alamat Email</b></label>
-                                <input type="email" class="form-control" id="email" name="email" required>
+                                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" required value="{{ old('email') }}">
+                                @error('email')
+                                    <div class="invalid-feedback text-start mb-3">
+                                        {{ $message }}
+                                    </div>  
+                                @enderror
                             </div>
                         </div>
                     </div>
@@ -48,13 +71,23 @@
                         <div class="col-lg-3 me-lg-3" style="min-width: 300px;">
                             <div class="mb-4">
                                 <label for="sandi" class="form-label tx-summit"><b>Sandi</b></label>
-                                <input type="password" class="form-control" id="sandi" name="sandi" required>
+                                <input type="password" class="form-control @error('sandi') is-invalid @enderror" id="sandi" name="sandi" required>
+                                @error('sandi')
+                                    <div class="invalid-feedback text-start mb-3">
+                                        {{ $message }}
+                                    </div>  
+                                @enderror
                             </div>
                         </div>
                         <div class="col-lg-3 me-lg-3" style="min-width: 300px;">
                             <div class="mb-4">
                                 <label for="sandi" class="form-label tx-summit"><b>Konfirmasi Sandi</b></label>
-                                <input type="password" class="form-control" id="sandi" name="conf_sandi" required>
+                                <input type="password" class="form-control @error('sandi') is-invalid @enderror" id="sandi" name="sandi_confirmation" required>
+                                @error('sandi')
+                                    <div class="invalid-feedback text-start mb-3">
+                                        {{ $message }}
+                                    </div>  
+                                @enderror
                             </div>
                         </div>
                     </div>
